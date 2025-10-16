@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World"
+  say-hello2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"
